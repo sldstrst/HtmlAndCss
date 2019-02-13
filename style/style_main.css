@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.blockmodel{
+    padding: 2%; /* Поля */
+    padding-bottom: 2%;
+    background: url(bg.jpg) repeat ; /* Цвет фона */
+    border: 6px solid rgb(30, 175, 232); /*границы*/
+     /*за границами*/
+    margin: 2% 80% 2% 2%;
+}
+
+.blockmodel-1{
+    padding: 30px; /* Поля */
+    padding-bottom: 4%;
+    background: url(bg.jpg)  ; /* Цвет фона */
+    border: 10px solid rgb(30, 232, 155); /*границы*/
+     /*за границами*/
+    margin: 2% 2% -8% 84%;
+    margin-top: -8%;
+    overflow: auto; /* Добавляем полосы прокрутки */
+}
+
+.blockmodel-2{
+    padding: 10px; /* Поля */
+    padding-bottom: 2%;
+    background: rgb(223, 131, 20) repeat; /* Цвет фона */
+    border: 4px solid rgb(30, 232, 155); /*границы*/
+     /*за границами*/
+    margin: -52% 20% 5% 22%;
+    overflow: auto; /* Добавляем полосы прокрутки */
+}
+
+.blockmodel-3{
+    font-size: 30px;
+    padding: 10px; /* Поля */
+    padding-bottom: 2%;
+    background: rgb(252, 79, 200) repeat; /* Цвет фона */
+    border: 4px solid rgb(121, 21, 235); /*границы*/
+    margin: 0% 20% 4% 22%;
+    overflow: auto; /* Добавляем полосы прокрутки */
+}
+
+.blockmodel-4{
+    margin-left: 2%;
+    width: 15%;
+    height: 500px;
+    background: #F2EFE6;
+    border: 1px solid #B25538;
+    padding: 0 10px;
+    margin-top: -30%;
+    overflow: auto; 
+    position: absolute;
+}
+
+
+.blockmodel-3 .vlojblock{
+    font-size: 30px;
+    padding: 10px; /* Поля */
+    padding-bottom: 2%;
+    background: rgb(252, 79, 200) repeat; /* Цвет фона */
+    border: 4px solid rgb(121, 21, 235); /*границы*/
+    margin: 2% 40% 2% 2%;
+}
+
+h2{
+    padding: 20px;
+    background: #D5b2b1;
+    border: 0px;
+    margin: -700px 2% 700px 65%;
+    margin-bottom: 50%;
+}
+
+p a{
+    padding: 2px;
+    background: rgb(217, 240, 116);
+    text-decoration: none;
+}
+
+p a:hover{
+    background: #a5a5a5;
+    border: greenyellow dashed 1px; 
+}

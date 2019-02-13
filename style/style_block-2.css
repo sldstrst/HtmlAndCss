@@ -1,0 +1,62 @@
+body{
+    background: #caeee6;
+    counter-reset: heading;
+}
+
+.menu {
+    width: 220px; /* Ширина меню */
+    padding: 5px; /* Отступы от рамки до пунктов меню */
+    border: 1px solid #000; /* Рамка вокруг меню */
+    
+  } 
+    
+
+.menu A:before{
+    counter-increment: heading; /* Указываем идентификатор счетчика */
+    content: "choice " counter(heading) ": ";
+}
+
+.menu P 
+{
+    margin: 0 0 2px; 
+}
+
+.menu A {
+    padding: 2px; /* Отступ от рамки вокруг ссылки до текста */
+    display: block; /* Ссылка как блочный элемент */
+    border: 1px solid #fff; /* Маскируем рамку вокруг ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.menu A:hover {
+    background: #faf3d2; /* Цвет фона под ссылкой */
+    color: #800000; /* Новый цвет ссылки */
+    border: 1px dashed #634f36 /* Рамка вокруг ссылки */
+}
+
+p a{
+    padding: 2px;
+    border: none;
+}
+
+
+p{
+    margin: 2% 10% 2%;
+}
+
+.notetitle{
+    display: inline;
+    padding: 2px;
+    border: 1px dashed #000;
+    border-bottom: none; /*убрать границу снизу*/
+    background: #d6c159;
+    margin: 0 30% 0;
+    white-space: nowrap; /* Запрещены переносы текста */
+}
+
+.note{
+    padding: 5px;
+    border: 1px dashed #000;
+    background: #fff;
+    margin: 0px 30% 0px;
+}
